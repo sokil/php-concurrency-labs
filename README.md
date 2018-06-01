@@ -10,7 +10,7 @@
     * [Source](https://github.com/tpunt/pht)
     * [PHP Manual](http://php.net/manual/en/book.pht.php)
 * Async IO
-  * http://php.net/manual/en/intro.eio.php
+  * EIO
     * [PHP Manual](http://php.net/manual/en/intro.eio.php)
   * [Swoole](https://github.com/swoole/swoole-src)
 * Event loop:
