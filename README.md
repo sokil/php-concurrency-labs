@@ -9,18 +9,16 @@
   * The Pht Threading Extension
     * [Source](https://github.com/tpunt/pht)
     * [PHP Manual](http://php.net/manual/en/book.pht.php)
-* Async IO
-  * EIO
-    * [PHP Manual](http://php.net/manual/en/intro.eio.php)
-  * [Swoole](https://github.com/swoole/swoole-src)
 
 ## Event extensions
 
-| Name         | Extension                                                       | Source                                        | Version  | PHP version           |
-| -------------|-----------------------------------------------------------------|-----------------------------------------------|----------|-----------------------|
-| ext-libevent |[PHP Manual](http://php.net/manual/ru/book.libevent.php)         | [PECL](https://pecl.php.net/package/libevent) | 0.1.0    | >= 5.3.0, < 7.0.0     |
-| ext-event    |[PHP Manual](http://php.net/manual/en/book.event.php)            | [PECL](https://pecl.php.net/package/event)    | 2.3.0    |                       |
-| ext-libev    |[PHP Manual](http://php.net/manual/en/intro.ev.php), [GitHub manual](https://github.com/m4rw3r/php-libev/blob/master/README.rst)   | [GitHub](https://github.com/m4rw3r/php-libev)    |          | < 7.0.0               |
+| Name | Extension | Source | Version | PHP version |
+| -----|-----------|--------|---------|-------------|
+| ext-libevent |[PHP Manual](http://php.net/manual/ru/book.libevent.php) | [PECL](https://pecl.php.net/package/libevent) | 0.1.0 | >= 5.3.0, < 7.0.0 |
+| ext-event |[PHP Manual](http://php.net/manual/en/book.event.php) | [PECL](https://pecl.php.net/package/event) | 2.3.0 ||
+| ext-libev |[PHP Manual](http://php.net/manual/en/intro.ev.php), [GitHub manual](https://github.com/m4rw3r/php-libev/) | [GitHub](https://github.com/m4rw3r/php-libev) | | < 7.0.0 |
+| eio |[PHP Manual](http://php.net/manual/en/intro.eio.php)||||
+| swoole |[GitHub manual](https://github.com/swoole/swoole-src)|[GitHub](https://github.com/swoole/swoole-src)|||
 
 Links:
 * [Benchmarking libevent against libev](http://libev.schmorp.de/bench.html) - libev faster
