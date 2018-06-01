@@ -6,9 +6,12 @@
   * Pthreads
     * [Source](https://github.com/krakjoe/pthreads)
     * [PHP Manual](http://php.net/manual/ru/book.pthreads.php)
-  * [The Pht Threading Extension](https://github.com/tpunt/pht)
+  * The Pht Threading Extension
+    * [Source](https://github.com/tpunt/pht)
+    * [PHP Manual](http://php.net/manual/en/book.pht.php)
 * Async IO
-  * [EIO](http://php.net/manual/en/intro.eio.php)
+  * http://php.net/manual/en/intro.eio.php
+    * [PHP Manual](http://php.net/manual/en/intro.eio.php)
   * [Swoole](https://github.com/swoole/swoole-src)
 * Event loop:
   * [EV](http://php.net/manual/en/intro.ev.php)
