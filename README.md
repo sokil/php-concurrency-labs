@@ -1,4 +1,4 @@
-# PHP Extension List
+# PHP Parallel Code Execution
 
 * [External program execution](http://php.net/manual/en/book.exec.php)
 * [PCNTL](http://php.net/manual/en/book.pcntl.php) - signals, forking of process
