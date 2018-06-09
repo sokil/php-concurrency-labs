@@ -9,11 +9,13 @@
   * The Pht Threading Extension
     * [Source](https://github.com/tpunt/pht)
     * [PHP Manual](http://php.net/manual/en/book.pht.php)
-* [Process Control Extensions. PHP Manual](http://php.net/manual/en/refs.fileprocess.process.php)
-    * [External program execution](http://php.net/manual/en/book.exec.php)
-    * [PCNTL](http://php.net/manual/en/book.pcntl.php) - signals, forking of process
-    * [POSIX](http://php.net/manual/en/book.posix.php) - process ids
-    * [Stream](http://php.net/manual/ru/book.stream.php)
+* Tools
+    * [Process Control Extensions. PHP Manual](http://php.net/manual/en/refs.fileprocess.process.php)
+        * [External program execution](http://php.net/manual/en/book.exec.php)
+        * [PCNTL](http://php.net/manual/en/book.pcntl.php) - signals, forking of process
+        * [POSIX](http://php.net/manual/en/book.posix.php) - process ids
+        * [Stream](http://php.net/manual/ru/book.stream.php)
+     * [ReactPHP](https://reactphp.org)
 
 ## Asynchronous code execution
 
