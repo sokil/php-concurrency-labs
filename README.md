@@ -1,6 +1,6 @@
 # PHP Parallel Code Execution
 
-* [Asynchronous code execution](#ssynchronous-code-execution)
+* [Asynchronous code execution](#asynchronous-code-execution)
     * [Event loop extensions](#event-loop-extensions)
 * Multithread code execution
   * Pthreads
