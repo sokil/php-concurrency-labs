@@ -1,10 +1,8 @@
 # PHP Parallel Code Execution
 
-* [External program execution](http://php.net/manual/en/book.exec.php)
-* [PCNTL](http://php.net/manual/en/book.pcntl.php) - signals, forking of process
-* [POSIX](http://php.net/manual/en/book.posix.php) - process ids
-* [Stream](http://php.net/manual/ru/book.stream.php)
-* Threads
+* [Asynchronous code execution](#ssynchronous-code-execution)
+    * [Event loop extensions](#event-loop-extensions)
+* Multithread code execution
   * Pthreads
     * [Source](https://github.com/krakjoe/pthreads)
     * [PHP Manual](http://php.net/manual/ru/book.pthreads.php)
@@ -12,8 +10,14 @@
     * [Source](https://github.com/tpunt/pht)
     * [PHP Manual](http://php.net/manual/en/book.pht.php)
 * [Process Control Extensions. PHP Manual](http://php.net/manual/en/refs.fileprocess.process.php)
+    * [External program execution](http://php.net/manual/en/book.exec.php)
+    * [PCNTL](http://php.net/manual/en/book.pcntl.php) - signals, forking of process
+    * [POSIX](http://php.net/manual/en/book.posix.php) - process ids
+    * [Stream](http://php.net/manual/ru/book.stream.php)
 
-## Event extensions
+## Asynchronous code execution
+
+### Event loop extensions
 
 | Name | Extension | Source | Version | PHP version |
 | -----|-----------|--------|---------|-------------|
@@ -27,7 +31,7 @@
 Links:
 * [Benchmarking libevent against libev](http://libev.schmorp.de/bench.html) - libev faster
 
-### ext-libevent
+#### ext-libevent
 
 Has build-in OpenSSL library, non-blocking IO, http, dns.
 
@@ -35,13 +39,13 @@ Has build-in OpenSSL library, non-blocking IO, http, dns.
 pecl install libevent-0.1.0
 ```
 
-### ext-event
+#### ext-event
 
 ```
 pecl install event-0.1.0
 ```
 
-### ext-libev
+#### ext-libev
 
 Library tries to improve `libevent`. But this is only event library, instead of libevent giving non-blocking IO, http, etc.
 
