@@ -3,15 +3,16 @@
 * [Asynchronous code execution](#asynchronous-code-execution)
     * [Event loop extensions](#event-loop-extensions)
     * Event loop frameworks
-        * [icicleio](https://github.com/icicleio)
         * [ReactPHP](https://reactphp.org)
+        * [icicleio](https://github.com/icicleio)
 * Multithread code execution
-  * Pthreads
-    * [Source](https://github.com/krakjoe/pthreads)
-    * [PHP Manual](http://php.net/manual/ru/book.pthreads.php)
-  * The Pht Threading Extension
-    * [Source](https://github.com/tpunt/pht)
-    * [PHP Manual](http://php.net/manual/en/book.pht.php)
+  * Thread extensions
+    * Pthreads
+      * [Source](https://github.com/krakjoe/pthreads)
+      * [PHP Manual](http://php.net/manual/ru/book.pthreads.php)
+    * The Pht Threading Extension
+      * [Source](https://github.com/tpunt/pht)
+      * [PHP Manual](http://php.net/manual/en/book.pht.php)
 * Tools
     * [Process Control Extensions. PHP Manual](http://php.net/manual/en/refs.fileprocess.process.php)
         * [External program execution](http://php.net/manual/en/book.exec.php)
