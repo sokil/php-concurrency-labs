@@ -1,0 +1,16 @@
+{
+    "name": "sokil/react-chat",
+    "type": "project",
+    "require": {
+        "react/event-loop": "^0.4.3",
+        "react/http": "^0.7.4",
+        "react/stream": "^0.7.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmytro Sokil",
+            "email": "dmytro.sokil@gmail.com"
+        }
+    ]
+}
