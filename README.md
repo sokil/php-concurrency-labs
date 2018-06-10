@@ -2,6 +2,9 @@
 
 * [Asynchronous code execution](#asynchronous-code-execution)
     * [Event loop extensions](#event-loop-extensions)
+    * Event loop frameworks
+        * [icicleio](https://github.com/icicleio)
+        * [ReactPHP](https://reactphp.org)
 * Multithread code execution
   * Pthreads
     * [Source](https://github.com/krakjoe/pthreads)
@@ -15,7 +18,6 @@
         * [PCNTL](http://php.net/manual/en/book.pcntl.php) - signals, forking of process
         * [POSIX](http://php.net/manual/en/book.posix.php) - process ids
      * [Stream](http://php.net/manual/ru/book.stream.php)
-     * [ReactPHP](https://reactphp.org)
 
 ## Asynchronous code execution
 
