@@ -2,8 +2,8 @@
 
 * [Asynchronous code execution](#asynchronous-code-execution)
     * [Event loop extensions](#event-loop-extensions)
-    * Event loop frameworks
-        * [ReactPHP](https://reactphp.org)
+    * [Event loop frameworks](#event-loop-frameworks)
+        * [ReactPHP](#reactphp)
         * [icicleio](https://github.com/icicleio)
 * Multithread code execution
   * Thread extensions
@@ -73,4 +73,17 @@ phpize
 ./configure --with-libev
 make
 make install
+```
+
+### Event loop frameworks
+
+#### ReactPHP
+
+Source: https://reactphp.org
+Examples: https://github.com/sokil/php-parallel-docs/tree/master/src/ReactPHP
+
+```
+cd src/ReactPHP
+Docker build -t php-event .
+docker run --rm -v `pwd`:/src php-event php /src/Timer.php
 ```

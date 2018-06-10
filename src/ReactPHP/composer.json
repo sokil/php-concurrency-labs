@@ -2,7 +2,7 @@
     "name": "sokil/react-chat",
     "type": "project",
     "require": {
-        "react/event-loop": "^0.4.3",
+        "react/event-loop": "^0.5.2",
         "react/http": "^0.7.4",
         "react/stream": "^0.7.3"
     },
