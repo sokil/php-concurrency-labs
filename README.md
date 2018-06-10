@@ -19,6 +19,8 @@
         * [PCNTL](http://php.net/manual/en/book.pcntl.php) - signals, forking of process
         * [POSIX](http://php.net/manual/en/book.posix.php) - process ids
      * [Stream](http://php.net/manual/ru/book.stream.php)
+     * [PHP sources](https://github.com/php)
+     * [Repositories related to the PHP Language](https://github.com/phplang)
 
 ## Asynchronous code execution
 
