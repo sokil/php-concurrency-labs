@@ -49,7 +49,7 @@ pecl install libevent-0.1.0
 #### ext-event
 
 ```
-pecl install event-0.1.0
+pecl install event-2.3.0
 ```
 
 #### ext-libev
