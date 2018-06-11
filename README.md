@@ -25,6 +25,7 @@
    * Mutex, Semaphore
       * [Semaphore](http://php.net/manual/en/book.sem.php) - Semaphore, Shared Memory and IPC
       * [Sync](http://php.net/manual/en/book.sync.php) - Semaphore, Mutex, Shared Memory and IPC
+   * [Named pipe](http://php.net/manual/ru/function.posix-mkfifo.php)
 * Tools
     * [Process Control Extensions. PHP Manual](http://php.net/manual/en/refs.fileprocess.process.php)
         * [External program execution](http://php.net/manual/en/book.exec.php)
