@@ -51,6 +51,7 @@
 | ext-ev |[PHP Manual](http://php.net/manual/en/intro.ev.php) | [PECL](https://pecl.php.net/package/ev), [BitBucket](https://bitbucket.org/osmanov/pecl-ev/src) | | >= 5.4, > 7.0 |
 | eio |[PHP Manual](http://php.net/manual/en/intro.eio.php)|[PECL](http://pecl.php.net/package/eio), [GitHub](https://github.com/rosmanov/pecl-eio)|||
 | swoole |[GitHub manual](https://github.com/swoole/swoole-src)|[GitHub](https://github.com/swoole/swoole-src)|||
+| libuv |[GitHub](https://github.com/bwoebi/php-uv)|[PECL](https://pecl.php.net/package/uv), [GitHub](https://github.com/bwoebi/php-uv)|||
 
 Links:
 * [Benchmarking libevent against libev](http://libev.schmorp.de/bench.html) - libev faster
@@ -91,6 +92,12 @@ phpize
 make
 make install
 ```
+
+#### libuv
+
+* [Official libuv site](http://libuv.org)
+* [Libuv source](https://github.com/libuv/libuv)
+
 
 ### Event loop frameworks
 
