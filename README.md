@@ -4,6 +4,7 @@
     * [Event loop extensions](#event-loop-extensions)
     * [Event loop frameworks](#event-loop-frameworks)
         * [ReactPHP](#reactphp)
+        * [AMP](https://github.com/amphp)
         * [icicleio](https://github.com/icicleio)
 * Multithread code execution
   * Thread extensions
@@ -15,6 +16,7 @@
       * [PHP Manual](http://php.net/manual/en/book.pht.php)
 * Coroutines
    * [Cooperative multitasking using coroutines](https://nikic.github.io/2012/12/22/Cooperative-multitasking-using-coroutines-in-PHP.html)
+   * [Co-operative PHP Multitasking](https://medium.com/async-php/co-operative-php-multitasking-ce4ef52858a0)
 * Inter-process communication
    * [PCNTL Signals](http://php.net/manual/en/book.pcntl.php)
    * [Socket](http://php.net/manual/en/book.sockets.php)
