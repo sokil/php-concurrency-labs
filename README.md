@@ -13,6 +13,8 @@
     * The Pht Threading Extension
       * [Source](https://github.com/tpunt/pht)
       * [PHP Manual](http://php.net/manual/en/book.pht.php)
+* Coroutines
+   * [Cooperative multitasking using coroutines](https://nikic.github.io/2012/12/22/Cooperative-multitasking-using-coroutines-in-PHP.html)
 * Tools
     * [Process Control Extensions. PHP Manual](http://php.net/manual/en/refs.fileprocess.process.php)
         * [External program execution](http://php.net/manual/en/book.exec.php)
