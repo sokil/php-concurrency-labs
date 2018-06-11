@@ -15,6 +15,16 @@
       * [PHP Manual](http://php.net/manual/en/book.pht.php)
 * Coroutines
    * [Cooperative multitasking using coroutines](https://nikic.github.io/2012/12/22/Cooperative-multitasking-using-coroutines-in-PHP.html)
+* Inter-process communication
+   * [PCNTL Signals](http://php.net/manual/en/book.pcntl.php)
+   * [Socket](http://php.net/manual/en/book.sockets.php)
+   * Shared memory
+      * [Shmop](http://php.net/manual/en/book.shmop.php)
+      * [Semaphore](http://php.net/manual/en/book.sem.php) - Semaphore, Shared Memory and IPC
+      * [Sync](http://php.net/manual/en/book.sync.php) - Semaphore, Mutex, Shared Memory and IPC
+   * Mutex, Semaphore
+      * [Semaphore](http://php.net/manual/en/book.sem.php) - Semaphore, Shared Memory and IPC
+      * [Sync](http://php.net/manual/en/book.sync.php) - Semaphore, Mutex, Shared Memory and IPC
 * Tools
     * [Process Control Extensions. PHP Manual](http://php.net/manual/en/refs.fileprocess.process.php)
         * [External program execution](http://php.net/manual/en/book.exec.php)
