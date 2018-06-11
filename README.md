@@ -1,4 +1,4 @@
-# PHP Parallel Code Execution
+# PHP Concurrency
 
 * [Asynchronous code execution](#asynchronous-code-execution)
     * [Event loop extensions](#event-loop-extensions)
