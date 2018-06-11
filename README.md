@@ -21,6 +21,8 @@
      * [Stream](http://php.net/manual/ru/book.stream.php)
      * [PHP sources](https://github.com/php)
      * [Repositories related to the PHP Language](https://github.com/phplang)
+* RFC
+    * [Fiber](https://wiki.php.net/rfc/fiber)
 
 ## Asynchronous code execution
 
