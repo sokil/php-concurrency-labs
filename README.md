@@ -72,9 +72,7 @@ Event is a PECL extension providing interface to libevent C library.
 
 The libevent API provides a mechanism to execute a callback function when a specific event occurs on a file descriptor or after a timeout has been reached. Furthermore, libevent also support callbacks due to signals or regular timeouts.
 
-```
-pecl install event-2.3.0
-```
+Dockerfile: https://github.com/sokil/php-concurrency-labs/blob/master/docker/Dockerfile.ext-event
 
 #### ext-libev
 
