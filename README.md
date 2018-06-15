@@ -98,7 +98,7 @@ make install
 
 Source: https://reactphp.org
 
-Examples: https://github.com/sokil/php-parallel-docs/tree/master/src/ReactPHP
+Examples: https://github.com/sokil/php-concurrency-labs/tree/master/examples/ReactPHP
 
 ```
 cd src/ReactPHP
