@@ -6,8 +6,8 @@
         * [ReactPHP](#reactphp)
         * [AMP](https://github.com/amphp)
         * [icicleio](https://github.com/icicleio)
-* Multithread code execution
-  * Thread extensions
+* [Multithread code execution](#multithread-code-execution)
+  * [Thread extensions](#thread-extensions)
     * Pthreads
       * [Source](https://github.com/krakjoe/pthreads)
       * [PHP Manual](http://php.net/manual/ru/book.pthreads.php)
@@ -99,7 +99,6 @@ make install
 * [Official libuv site](http://libuv.org)
 * [Libuv source](https://github.com/libuv/libuv)
 
-
 ### Event loop frameworks
 
 #### ReactPHP
@@ -113,3 +112,16 @@ cd src/ReactPHP
 Docker build -t php-event .
 docker run --rm -v `pwd`:/src php-event php /src/Timer.php
 ```
+
+## Multithread code execution
+
+### Thread extensions
+
+|Name|Source|Manual|
+|----|------|------|
+|Pthreads|[GitHub](https://github.com/krakjoe/pthreads),[PECL](http://pecl.php.net/package/pthreads)|[PHP Manual](http://php.net/manual/ru/book.pthreads.php)|
+|Pht|[GitHub](https://github.com/tpunt/pht)|[PHP Manual](http://php.net/manual/en/book.pht.php)|
+
+#### Pthreads
+      
+Dockerfile: https://github.com/sokil/php-concurrency-labs/blob/master/docker/Dockerfile.ext-phtreads
