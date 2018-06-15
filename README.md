@@ -11,6 +11,7 @@
     * Pthreads
       * [Source](https://github.com/krakjoe/pthreads)
       * [PHP Manual](http://php.net/manual/ru/book.pthreads.php)
+      * [PECL](http://pecl.php.net/package/pthreads)
     * The Pht Threading Extension
       * [Source](https://github.com/tpunt/pht)
       * [PHP Manual](http://php.net/manual/en/book.pht.php)
