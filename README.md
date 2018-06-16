@@ -6,6 +6,7 @@
         * [ReactPHP](#reactphp)
         * [AMP](https://github.com/amphp)
         * [icicleio](https://github.com/icicleio)
+        * [Kraken](http://kraken-php.com)
 * [Multithread code execution](#multithread-code-execution)
   * [Thread extensions](#thread-extensions)
 * Coroutines
