@@ -33,6 +33,8 @@
 
 ## Definitions
 
+[Concurrency](https://en.wikipedia.org/wiki/Concurrency_(computer_science)): ability of different parts of a program to be executed in parallel, which can significantly improve overall speed of the execution in multi-processor and multi-core systems.
+
 There are two types of multitasking:
 
 * [Co-operative, non-preemptive](https://en.wikipedia.org/wiki/Cooperative_multitasking):  is a style of computer multitasking when process voluntarily yield control and all programs must cooperate for the entire scheduling scheme to work.
