@@ -4,10 +4,6 @@
 * [Asynchronous code execution](#asynchronous-code-execution)
     * [Event loop extensions](#event-loop-extensions)
     * [Event loop frameworks](#event-loop-frameworks)
-        * [ReactPHP](#reactphp)
-        * [AMP](https://github.com/amphp)
-        * [icicleio](https://github.com/icicleio)
-        * [Kraken](http://kraken-php.com)
 * [Multithread code execution](#multithread-code-execution)
   * [Thread extensions](#thread-extensions)
 * [Coroutines](#coroutines)
@@ -102,6 +98,11 @@ make install
 
 ### Event loop frameworks
 
+* [ReactPHP](#reactphp)
+* [AMP](#amp)
+* [icicleio](#icicleio)
+* [Kraken](#Kraken)
+        
 #### ReactPHP
 
 Source: https://reactphp.org
@@ -113,6 +114,18 @@ cd src/ReactPHP
 Docker build -t php-event .
 docker run --rm -v `pwd`:/src php-event php /src/Timer.php
 ```
+
+#### AMP
+
+Source: https://github.com/amphp
+
+#### icicleio
+
+Source: https://github.com/icicleio
+
+#### Kraken
+
+Source: http://kraken-php.com
 
 ## Multithread code execution
 
