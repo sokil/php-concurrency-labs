@@ -1,5 +1,6 @@
 # PHP Concurrency
 
+* [Definitions]
 * [Asynchronous code execution](#asynchronous-code-execution)
     * [Event loop extensions](#event-loop-extensions)
     * [Event loop frameworks](#event-loop-frameworks)
@@ -9,9 +10,7 @@
         * [Kraken](http://kraken-php.com)
 * [Multithread code execution](#multithread-code-execution)
   * [Thread extensions](#thread-extensions)
-* [Coroutines](https://en.wikipedia.org/wiki/Coroutine)
-   * [Cooperative multitasking using coroutines](https://nikic.github.io/2012/12/22/Cooperative-multitasking-using-coroutines-in-PHP.html)
-   * [Co-operative PHP Multitasking](https://medium.com/async-php/co-operative-php-multitasking-ce4ef52858a0)
+* [Coroutines](#coroutines)
 * Inter-process communication
    * [PCNTL Signals](http://php.net/manual/en/book.pcntl.php)
    * [Socket](http://php.net/manual/en/book.sockets.php)
@@ -35,6 +34,14 @@
     * Fiber
       * [RFC](https://wiki.php.net/rfc/fiber)
       * [Source](http://fiberphp.org/)
+
+## Definitions
+
+There are two types of multitasking:
+
+* [Co-operative, non-preemptive](https://en.wikipedia.org/wiki/Cooperative_multitasking):  is a style of computer multitasking when process voluntarily yield control and all programs must cooperate for the entire scheduling scheme to work.
+
+* [Preemptive](https://en.wikipedia.org/wiki/Preemption_(computing)#PREEMPTIVE): involves the use of an interrupt mechanism which suspends the currently executing process and invokes a scheduler to determine which process should execute next. Therefore, all processes will get some amount of CPU time at any given time.
 
 ## Asynchronous code execution
 
@@ -119,3 +126,11 @@ docker run --rm -v `pwd`:/src php-event php /src/Timer.php
 #### Pthreads
       
 Dockerfile: https://github.com/sokil/php-concurrency-labs/blob/master/docker/Dockerfile.ext-phtreads
+
+## Coroutines
+
+### Articles
+
+* [Wikipedia](https://en.wikipedia.org/wiki/Coroutine)
+* [Cooperative multitasking using coroutines](https://nikic.github.io/2012/12/22/Cooperative-multitasking-using-coroutines-in-PHP.html)
+* [Co-operative PHP Multitasking](https://medium.com/async-php/co-operative-php-multitasking-ce4ef52858a0)
