@@ -9,7 +9,7 @@
         * [Kraken](http://kraken-php.com)
 * [Multithread code execution](#multithread-code-execution)
   * [Thread extensions](#thread-extensions)
-* Coroutines
+* [Coroutines](https://en.wikipedia.org/wiki/Coroutine)
    * [Cooperative multitasking using coroutines](https://nikic.github.io/2012/12/22/Cooperative-multitasking-using-coroutines-in-PHP.html)
    * [Co-operative PHP Multitasking](https://medium.com/async-php/co-operative-php-multitasking-ce4ef52858a0)
 * Inter-process communication
