@@ -33,7 +33,9 @@
 
 ## Definitions
 
-[Concurrency](https://en.wikipedia.org/wiki/Concurrency_(computer_science)): ability of different parts of a program to be executed in parallel, which can significantly improve overall speed of the execution in multi-processor and multi-core systems.
+[Concurrency](https://en.wikipedia.org/wiki/Concurrency_(computer_science)): ability of different parts of a program to be executed out-of-order (in [parallel](https://en.wikipedia.org/wiki/Parallel_computing)), which can significantly improve overall speed of the execution in multi-processor and multi-core systems.
+
+[Multitaskink](https://en.wikipedia.org/wiki/Computer_multitasking): is the concurrent execution of multiple tasks over a certain period of time.
 
 There are two types of multitasking:
 
