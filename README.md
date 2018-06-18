@@ -33,16 +33,14 @@
 
 ## Definitions
 
-[Concurrency](https://en.wikipedia.org/wiki/Concurrency_(computer_science)): ability of different parts of a program to be executed out-of-order (in [parallel](https://en.wikipedia.org/wiki/Parallel_computing)), which can significantly improve overall speed of the execution in multi-processor and multi-core systems.
+[Concurrency](https://en.wikipedia.org/wiki/Concurrency_(computer_science)): ability of different parts of a program to be executed out-of-order, which can significantly improve overall speed of the execution in multi-processor and multi-core systems.
 
-[Multitaskink](https://en.wikipedia.org/wiki/Computer_multitasking): is the concurrent execution of multiple tasks over a certain period of time.
+[Parallelism](https://en.wikipedia.org/wiki/Task_parallelism): Form of [Parallel_computing](https://en.wikipedia.org/wiki/Parallel_computing) in which execution of processes are carried out concurrently across multiple processors in parallel computing environments.
 
-There are two types of multitasking:
-
+[Multitaskink](https://en.wikipedia.org/wiki/Computer_multitasking): is the concurrent execution of multiple tasks over a certain period of time. There are two types of multitasking:
 * [Co-operative, non-preemptive](https://en.wikipedia.org/wiki/Cooperative_multitasking):  is a style of computer multitasking when process voluntarily yield control and all programs must cooperate for the entire scheduling scheme to work.
    * Asynchronous code execution
    * Coroutines
-
 * [Preemptive](https://en.wikipedia.org/wiki/Preemption_(computing)#PREEMPTIVE): involves the use of an interrupt mechanism which suspends the currently executing process and invokes a scheduler to determine which process should execute next. Therefore, all processes will get some amount of CPU time at any given time.
    * Threads
    * Forks
