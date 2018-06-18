@@ -33,7 +33,7 @@
 
 ## Definitions
 
-[Concurrency](https://en.wikipedia.org/wiki/Concurrency_(computer_science)): ability of different parts of a program to be executed out-of-order, which can significantly improve overall speed of the execution in multi-processor and multi-core systems.
+[Concurrency](https://en.wikipedia.org/wiki/Concurrency_(computer_science)): ability of different parts of a program to be executed out-of-order.
 
 [Parallelism](https://en.wikipedia.org/wiki/Task_parallelism): Form of [parallel computing](https://en.wikipedia.org/wiki/Parallel_computing) in which execution of processes are carried out concurrently across multiple processors in parallel computing environments.
 
