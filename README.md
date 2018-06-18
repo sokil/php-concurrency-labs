@@ -1,6 +1,6 @@
 # PHP Concurrency
 
-* [Definitions]
+* [Definitions](#definitions)
 * [Asynchronous code execution](#asynchronous-code-execution)
     * [Event loop extensions](#event-loop-extensions)
     * [Event loop frameworks](#event-loop-frameworks)
