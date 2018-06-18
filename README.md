@@ -35,7 +35,7 @@
 
 [Concurrency](https://en.wikipedia.org/wiki/Concurrency_(computer_science)): ability of different parts of a program to be executed out-of-order, which can significantly improve overall speed of the execution in multi-processor and multi-core systems.
 
-[Parallelism](https://en.wikipedia.org/wiki/Task_parallelism): Form of [Parallel_computing](https://en.wikipedia.org/wiki/Parallel_computing) in which execution of processes are carried out concurrently across multiple processors in parallel computing environments.
+[Parallelism](https://en.wikipedia.org/wiki/Task_parallelism): Form of [parallel computing](https://en.wikipedia.org/wiki/Parallel_computing) in which execution of processes are carried out concurrently across multiple processors in parallel computing environments.
 
 [Multitaskink](https://en.wikipedia.org/wiki/Computer_multitasking): is the concurrent execution of multiple tasks over a certain period of time. There are two types of multitasking:
 * [Co-operative, non-preemptive](https://en.wikipedia.org/wiki/Cooperative_multitasking):  is a style of computer multitasking when process voluntarily yield control and all programs must cooperate for the entire scheduling scheme to work.
