@@ -129,6 +129,8 @@ Dockerfile: https://github.com/sokil/php-concurrency-labs/blob/master/docker/Doc
 
 ## Coroutines
 
+Coroutines are computer-program components that generalize subroutines for non-preemptive multitasking, by allowing multiple entry points for suspending and resuming execution at certain locations. Coroutines are well-suited for implementing familiar program components such as cooperative tasks, exceptions, event loops, iterators, infinite lists and pipes.
+
 ### Articles
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Coroutine)
