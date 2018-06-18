@@ -40,8 +40,12 @@
 There are two types of multitasking:
 
 * [Co-operative, non-preemptive](https://en.wikipedia.org/wiki/Cooperative_multitasking):  is a style of computer multitasking when process voluntarily yield control and all programs must cooperate for the entire scheduling scheme to work.
+   * Asynchronous code execution
+   * Coroutines
 
 * [Preemptive](https://en.wikipedia.org/wiki/Preemption_(computing)#PREEMPTIVE): involves the use of an interrupt mechanism which suspends the currently executing process and invokes a scheduler to determine which process should execute next. Therefore, all processes will get some amount of CPU time at any given time.
+   * Threads
+   * Forks
 
 ## Asynchronous code execution
 
