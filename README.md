@@ -112,7 +112,7 @@ Examples: https://github.com/sokil/php-concurrency-labs/tree/master/examples/Rea
 ```
 cd src/ReactPHP
 Docker build -t php-event .
-docker run --rm -v `pwd`:/src php-event php /src/Timer.php
+docker run --rm -v `pwd`:/src php-event php /src/TimerExample.php
 ```
 
 #### AMP
