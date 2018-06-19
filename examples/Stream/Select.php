@@ -29,6 +29,7 @@ while (true) {
         0
     );
 
+    // add new client connection to pool if exists
     if ($modifiedServerSocketStreamNumber === false) {
         echo "Server connection interrupted\n";
     } else if ($modifiedServerSocketStreamNumber === 0) {
@@ -47,10 +48,12 @@ while (true) {
 
         echo sprintf("Active client connections: %d\n", count($clientSockets));
 
+        // send date to client
         foreach ($clientSockets as $clientSocket) {
             fwrite($clientSocket, date('Y-m-d H:i:s.u') . PHP_EOL);
         }
 
+        // wait for data from client
         $clientSocketReadStreams = $clientSockets;
         $clientSocketWriteStreams = [];
         $clientSocketExceptStreams = [];
@@ -62,6 +65,7 @@ while (true) {
             0
         );
 
+        // show data from client if exists
         if ($modifiedClientSocketStreamNumber === false) {
             echo "Client connection interrupted\n";
         } else if ($modifiedClientSocketStreamNumber === 0) {
