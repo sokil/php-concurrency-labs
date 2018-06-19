@@ -18,12 +18,12 @@
       * [Semaphore](http://php.net/manual/en/book.sem.php) - Semaphore, Shared Memory and IPC
       * [Sync](http://php.net/manual/en/book.sync.php) - Semaphore, Mutex, Shared Memory and IPC
    * [Named pipe](http://php.net/manual/ru/function.posix-mkfifo.php)
-* Tools
+* [Tools](#tools)
     * [Process Control Extensions. PHP Manual](http://php.net/manual/en/refs.fileprocess.process.php)
         * [External program execution](http://php.net/manual/en/book.exec.php)
         * [PCNTL](http://php.net/manual/en/book.pcntl.php) - signals, forking of process
         * [POSIX](http://php.net/manual/en/book.posix.php) - process ids
-     * [Stream](http://php.net/manual/ru/book.stream.php)
+     * [Stream](#stream)
      * [PHP sources](https://github.com/php)
      * [Repositories related to the PHP Language](https://github.com/phplang)
 * RFC
@@ -157,3 +157,12 @@ Coroutines are computer-program components that generalize subroutines for non-p
 * [Wikipedia](https://en.wikipedia.org/wiki/Coroutine)
 * [Cooperative multitasking using coroutines](https://nikic.github.io/2012/12/22/Cooperative-multitasking-using-coroutines-in-PHP.html)
 * [Co-operative PHP Multitasking](https://medium.com/async-php/co-operative-php-multitasking-ce4ef52858a0)
+
+
+## Tools
+
+### Stream
+
+PHP Manual: http://php.net/manual/ru/book.stream.php
+
+Examples: https://github.com/sokil/php-concurrency-labs/tree/master/examples/Stream 
