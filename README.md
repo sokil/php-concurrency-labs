@@ -1,17 +1,12 @@
 # PHP Concurrency
 
+* [Definitions](#definitions)
 * [Asynchronous code execution](#asynchronous-code-execution)
     * [Event loop extensions](#event-loop-extensions)
     * [Event loop frameworks](#event-loop-frameworks)
-        * [ReactPHP](#reactphp)
-        * [AMP](https://github.com/amphp)
-        * [icicleio](https://github.com/icicleio)
-        * [Kraken](http://kraken-php.com)
 * [Multithread code execution](#multithread-code-execution)
   * [Thread extensions](#thread-extensions)
-* Coroutines
-   * [Cooperative multitasking using coroutines](https://nikic.github.io/2012/12/22/Cooperative-multitasking-using-coroutines-in-PHP.html)
-   * [Co-operative PHP Multitasking](https://medium.com/async-php/co-operative-php-multitasking-ce4ef52858a0)
+* [Coroutines](#coroutines)
 * Inter-process communication
    * [PCNTL Signals](http://php.net/manual/en/book.pcntl.php)
    * [Socket](http://php.net/manual/en/book.sockets.php)
@@ -35,6 +30,20 @@
     * Fiber
       * [RFC](https://wiki.php.net/rfc/fiber)
       * [Source](http://fiberphp.org/)
+
+## Definitions
+
+[Concurrency](https://en.wikipedia.org/wiki/Concurrency_(computer_science)): ability of different parts of a program to be executed out-of-order.
+
+[Parallelism](https://en.wikipedia.org/wiki/Task_parallelism): Form of [parallel computing](https://en.wikipedia.org/wiki/Parallel_computing) in which execution of processes are carried out concurrently across multiple processors in parallel computing environments.
+
+[Multitaskink](https://en.wikipedia.org/wiki/Computer_multitasking): is the concurrent execution of multiple tasks over a certain period of time. There are two types of multitasking:
+* [Co-operative, non-preemptive](https://en.wikipedia.org/wiki/Cooperative_multitasking):  is a style of computer multitasking when process voluntarily yield control and all programs must cooperate for the entire scheduling scheme to work.
+   * Asynchronous code execution
+   * Coroutines
+* [Preemptive](https://en.wikipedia.org/wiki/Preemption_(computing)#PREEMPTIVE): involves the use of an interrupt mechanism which suspends the currently executing process and invokes a scheduler to determine which process should execute next. Therefore, all processes will get some amount of CPU time at any given time.
+   * Threads
+   * Forks
 
 ## Asynchronous code execution
 
@@ -95,6 +104,11 @@ make install
 
 ### Event loop frameworks
 
+* [ReactPHP](#reactphp)
+* [AMP](#amp)
+* [icicleio](#icicleio)
+* [Kraken](#kraken)
+        
 #### ReactPHP
 
 Source: https://reactphp.org
@@ -104,8 +118,20 @@ Examples: https://github.com/sokil/php-concurrency-labs/tree/master/examples/Rea
 ```
 cd src/ReactPHP
 Docker build -t php-event .
-docker run --rm -v `pwd`:/src php-event php /src/Timer.php
+docker run --rm -v `pwd`:/src php-event php /src/TimerExample.php
 ```
+
+#### AMP
+
+Source: https://github.com/amphp
+
+#### icicleio
+
+Source: https://github.com/icicleio
+
+#### Kraken
+
+Source: http://kraken-php.com
 
 ## Multithread code execution
 
@@ -119,3 +145,15 @@ docker run --rm -v `pwd`:/src php-event php /src/Timer.php
 #### Pthreads
       
 Dockerfile: https://github.com/sokil/php-concurrency-labs/blob/master/docker/Dockerfile.ext-phtreads
+
+Examples: https://github.com/sokil/php-concurrency-labs/tree/master/examples/Pthreads
+
+## Coroutines
+
+Coroutines are computer-program components that generalize subroutines for non-preemptive multitasking, by allowing multiple entry points for suspending and resuming execution at certain locations. Coroutines are well-suited for implementing familiar program components such as cooperative tasks, exceptions, event loops, iterators, infinite lists and pipes.
+
+### Articles
+
+* [Wikipedia](https://en.wikipedia.org/wiki/Coroutine)
+* [Cooperative multitasking using coroutines](https://nikic.github.io/2012/12/22/Cooperative-multitasking-using-coroutines-in-PHP.html)
+* [Co-operative PHP Multitasking](https://medium.com/async-php/co-operative-php-multitasking-ce4ef52858a0)
