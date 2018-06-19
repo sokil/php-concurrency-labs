@@ -146,6 +146,8 @@ Source: http://kraken-php.com
       
 Dockerfile: https://github.com/sokil/php-concurrency-labs/blob/master/docker/Dockerfile.ext-phtreads
 
+Examples: https://github.com/sokil/php-concurrency-labs/tree/master/examples/Pthreads
+
 ## Coroutines
 
 Coroutines are computer-program components that generalize subroutines for non-preemptive multitasking, by allowing multiple entry points for suspending and resuming execution at certain locations. Coroutines are well-suited for implementing familiar program components such as cooperative tasks, exceptions, event loops, iterators, infinite lists and pipes.
