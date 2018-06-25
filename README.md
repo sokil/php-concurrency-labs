@@ -175,7 +175,7 @@ Coroutines are computer-program components that generalize subroutines for non-p
 
 ### Tools
 
-* [PGP-PM]
+* PGP-PM
   * GitHub: https://github.com/php-pm/php-pm
 
 ## Tools
