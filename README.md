@@ -6,7 +6,7 @@
     * [Event loop frameworks](#event-loop-frameworks)
       * [ReactPHP](#reactphp)
       * [AMP](#amp)
-      * [icicleio](#icicleio)
+      * [icicleio](#icicleio) - deprecated deprecated in favor of [Amp v2.0](https://amphp.org)
       * [Kraken](#kraken)
 * [Multithread code execution](#multithread-code-execution)
   * [Thread extensions](#thread-extensions)
@@ -132,9 +132,13 @@ docker run --rm -v `pwd`:/src php-event php /src/TimerExample.php
 
 #### AMP
 
+Site: https://amphp.org
+
 Source: https://github.com/amphp
 
 #### icicleio
+
+Icicle is now deprecated in favor of [Amp v2.0](https://amphp.org)
 
 Source: https://github.com/icicleio
 
