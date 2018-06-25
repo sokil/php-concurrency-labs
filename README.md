@@ -28,7 +28,6 @@
      * External program execution
        * [System program execution (PHP manual)](http://php.net/manual/en/book.exec.php)
        * [popen (PHP manual)](http://php.net/manual/ru/function.popen.php)
-     * [PCNTL](http://php.net/manual/en/book.pcntl.php) - signals, forking of process
      * [POSIX](http://php.net/manual/en/book.posix.php) - process ids
      * [Stream](#stream)
      * [PHP sources](https://github.com/php)
