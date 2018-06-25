@@ -22,6 +22,7 @@
       * [Semaphore](http://php.net/manual/en/book.sem.php) - Semaphore, Shared Memory and IPC
       * [Sync](http://php.net/manual/en/book.sync.php) - Semaphore, Mutex, Shared Memory and IPC
    * [Named pipe](http://php.net/manual/ru/function.posix-mkfifo.php)
+* [Process management](#proces-management)
 * [Tools](#tools)
     * [Process Control Extensions. PHP Manual](http://php.net/manual/en/refs.fileprocess.process.php)
         * [External program execution](http://php.net/manual/en/book.exec.php)
@@ -166,6 +167,16 @@ Coroutines are computer-program components that generalize subroutines for non-p
 * [Cooperative multitasking using coroutines](https://nikic.github.io/2012/12/22/Cooperative-multitasking-using-coroutines-in-PHP.html)
 * [Co-operative PHP Multitasking](https://medium.com/async-php/co-operative-php-multitasking-ce4ef52858a0)
 
+## Process management
+
+### Articles
+
+*[Bring High Performance Into Your PHP App (with ReactPHP)](http://marcjschmidt.de/blog/2014/02/08/php-high-performance.html)
+
+### Tools
+
+* [PGP-PM]
+  * GitHub: https://github.com/php-pm/php-pm
 
 ## Tools
 
