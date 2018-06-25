@@ -22,21 +22,22 @@
       * [Semaphore](http://php.net/manual/en/book.sem.php) - Semaphore, Shared Memory and IPC
       * [Sync](http://php.net/manual/en/book.sync.php) - Semaphore, Mutex, Shared Memory and IPC
    * [Named pipe](http://php.net/manual/ru/function.posix-mkfifo.php)
+   * [Expect](http://php.net/manual/en/book.expect.php) -  allows to interact with processes through PTY
 * [Process management](#proces-management)
 * [Tools](#tools)
-    * [Process Control Extensions. PHP Manual](http://php.net/manual/en/refs.fileprocess.process.php)
-        * External program execution
-          * [System program execution (PHP manual)](http://php.net/manual/en/book.exec.php)
-          * [popen (PHP manual)](http://php.net/manual/ru/function.popen.php)
-        * [PCNTL](http://php.net/manual/en/book.pcntl.php) - signals, forking of process
-        * [POSIX](http://php.net/manual/en/book.posix.php) - process ids
+     * External program execution
+       * [System program execution (PHP manual)](http://php.net/manual/en/book.exec.php)
+       * [popen (PHP manual)](http://php.net/manual/ru/function.popen.php)
+     * [PCNTL](http://php.net/manual/en/book.pcntl.php) - signals, forking of process
+     * [POSIX](http://php.net/manual/en/book.posix.php) - process ids
      * [Stream](#stream)
      * [PHP sources](https://github.com/php)
      * [Repositories related to the PHP Language](https://github.com/phplang)
 * RFC
     * Fiber
       * [RFC](https://wiki.php.net/rfc/fiber)
-      * [Source](http://fiberphp.org/)
+      * [Source](http://fiberphp.org/) 
+* [Articles](#articles)
 
 ## Definitions
 
@@ -58,7 +59,7 @@
 
 | Name | Extension | Source | Version | PHP version |
 | -----|-----------|--------|---------|-------------|
-| ext-libevent |[PHP Manual](http://php.net/manual/ru/book.libevent.php) | [PECL](https://pecl.php.net/package/libevent), [git.php.net](http://git.php.net/?p=pecl/event/libevent.git) | 0.1.0 | >= 5.3.0, < 7.0.0 |
+| ext-libevent |[PHP Manual](http://php.net/manual/en/book.libevent.php) | [PECL](https://pecl.php.net/package/libevent), [git.php.net](http://git.php.net/?p=pecl/event/libevent.git) | 0.1.0 | >= 5.3.0, < 7.0.0 |
 | ext-event |[PHP Manual](http://php.net/manual/en/book.event.php) | [PECL](https://pecl.php.net/package/event), [Bitbucket](https://bitbucket.org/osmanov/pecl-event/src) | 2.3.0 | >= 5.4, >= 7.0 |
 | ext-libev |[GitHub manual](https://github.com/m4rw3r/php-libev/) | [GitHub](https://github.com/m4rw3r/php-libev) | | < 7.0.0 |
 | ext-ev |[PHP Manual](http://php.net/manual/en/book.ev.php) | [PECL](https://pecl.php.net/package/ev), [BitBucket](https://bitbucket.org/osmanov/pecl-ev/src) | | >= 5.4, > 7.0 |
@@ -191,3 +192,7 @@ Coroutines are computer-program components that generalize subroutines for non-p
 PHP Manual: http://php.net/manual/ru/book.stream.php
 
 Examples: https://github.com/sokil/php-concurrency-labs/tree/master/examples/Stream 
+
+## Articles
+
+* [Process Control Extensions (PHP Manual)](http://php.net/manual/en/refs.fileprocess.process.php)
