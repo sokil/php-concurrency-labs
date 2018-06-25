@@ -4,6 +4,10 @@
 * [Asynchronous code execution](#asynchronous-code-execution)
     * [Event loop extensions](#event-loop-extensions)
     * [Event loop frameworks](#event-loop-frameworks)
+      * [ReactPHP](#reactphp)
+      * [AMP](#amp)
+      * [icicleio](#icicleio)
+      * [Kraken](#kraken)
 * [Multithread code execution](#multithread-code-execution)
   * [Thread extensions](#thread-extensions)
 * [Coroutines](#coroutines)
@@ -120,6 +124,10 @@ cd src/ReactPHP
 Docker build -t php-event .
 docker run --rm -v `pwd`:/src php-event php /src/TimerExample.php
 ```
+
+##### Articles
+
+* [Super Speed Symfony - ReactPHP](https://gnugat.github.io/2016/04/13/super-speed-sf-react-php.html)
 
 #### AMP
 
