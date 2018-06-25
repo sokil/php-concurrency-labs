@@ -6,7 +6,7 @@
     * [Event loop frameworks](#event-loop-frameworks)
       * [ReactPHP](#reactphp)
       * [AMP](#amp)
-      * [icicleio](#icicleio) - deprecated deprecated in favor of [Amp v2.0](https://amphp.org)
+      * [icicleio](#icicleio) - deprecated in favor of [Amp v2.0](https://amphp.org)
       * [Kraken](#kraken)
 * [Multithread code execution](#multithread-code-execution)
   * [Thread extensions](#thread-extensions)
