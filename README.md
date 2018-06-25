@@ -171,7 +171,7 @@ Coroutines are computer-program components that generalize subroutines for non-p
 
 ### Articles
 
-*[Bring High Performance Into Your PHP App (with ReactPHP)](http://marcjschmidt.de/blog/2014/02/08/php-high-performance.html)
+* [Bring High Performance Into Your PHP App (with ReactPHP)](http://marcjschmidt.de/blog/2014/02/08/php-high-performance.html)
 
 ### Tools
 
