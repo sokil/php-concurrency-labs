@@ -25,7 +25,7 @@
 * [Process management](#proces-management)
 * [Tools](#tools)
     * [Process Control Extensions. PHP Manual](http://php.net/manual/en/refs.fileprocess.process.php)
-        * [External program execution]
+        * External program execution
           * [System program execution (PHP manual)](http://php.net/manual/en/book.exec.php)
           * [popen (PHP manual)](http://php.net/manual/ru/function.popen.php)
         * [PCNTL](http://php.net/manual/en/book.pcntl.php) - signals, forking of process
