@@ -194,5 +194,6 @@ Examples: https://github.com/sokil/php-concurrency-labs/tree/master/examples/Str
 
 ## Articles
 
+* [The Reactive Manifesto](https://www.reactivemanifesto.org/)
 * [Process Control Extensions (PHP Manual)](http://php.net/manual/en/refs.fileprocess.process.php)
 * [How to use the Linux AIO feature](https://github.com/littledan/linux-aio)
