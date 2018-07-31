@@ -23,7 +23,7 @@
       * [Sync](http://php.net/manual/en/book.sync.php) - Semaphore, Mutex, Shared Memory and IPC
    * [Named pipe](http://php.net/manual/ru/function.posix-mkfifo.php)
    * [Expect](http://php.net/manual/en/book.expect.php) -  allows to interact with processes through PTY
-* [Process management](#proces-management)
+* [Process management](#process-management)
 * [Tools](#tools)
      * External program execution
        * [System program execution (PHP manual)](http://php.net/manual/en/book.exec.php)
