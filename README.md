@@ -178,7 +178,7 @@ Coroutines are computer-program components that generalize subroutines for non-p
 ## Distributed locking
 
 * [Distributed lock manager (Wiki)](https://en.wikipedia.org/wiki/Distributed_lock_manager)
-* [Distributed locks with Redish](https://redis.io/topics/distlock)
+* [Distributed locks with Redis](https://redis.io/topics/distlock)
 * Consul
   * [CLI](https://www.consul.io/docs/commands/lock.html)
   * API
