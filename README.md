@@ -11,6 +11,7 @@
 * [Multithread code execution](#multithread-code-execution)
   * [Thread extensions](#thread-extensions)
 * [Coroutines](#coroutines)
+* [Distributed locking](#distributed-locking)
 * Inter-process communication
    * [PCNTL Signals](http://php.net/manual/en/book.pcntl.php)
    * [Socket](http://php.net/manual/en/book.sockets.php)
@@ -173,6 +174,17 @@ Coroutines are computer-program components that generalize subroutines for non-p
 * [Wikipedia](https://en.wikipedia.org/wiki/Coroutine)
 * [Cooperative multitasking using coroutines](https://nikic.github.io/2012/12/22/Cooperative-multitasking-using-coroutines-in-PHP.html)
 * [Co-operative PHP Multitasking](https://medium.com/async-php/co-operative-php-multitasking-ce4ef52858a0)
+
+## Distributed locking
+
+* [Distributed lock manager (Wiki)](https://en.wikipedia.org/wiki/Distributed_lock_manager)
+* [https://redis.io/topics/distlock](Distributed locks with Redis)
+* Consul
+  * [CLI](https://www.consul.io/docs/commands/lock.html)
+  * API
+    * [Session](https://www.consul.io/api/session.html)
+    * [Semaphore](https://www.consul.io/docs/guides/semaphore.html)
+    * [KV Storage, aquiring](https://www.consul.io/api/kv.html)
 
 ## Process management
 
