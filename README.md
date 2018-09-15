@@ -196,6 +196,8 @@ Coroutines are computer-program components that generalize subroutines for non-p
 
 * PHP-PM
   * GitHub: https://github.com/php-pm/php-pm
+* Spatie 
+  * https://github.com/spatie/async
 
 ## Tools
 
