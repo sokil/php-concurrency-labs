@@ -8,6 +8,7 @@
       * [AMP](#amp)
       * [icicleio](#icicleio) - deprecated in favor of [Amp v2.0](https://amphp.org)
       * [Kraken](#kraken)
+      * [Workerman](#workerman)
 * [Multithread code execution](#multithread-code-execution)
   * [Thread extensions](#thread-extensions)
 * [Coroutines](#coroutines)
@@ -117,6 +118,7 @@ make install
 * [AMP](#amp)
 * [icicleio](#icicleio)
 * [Kraken](#kraken)
+* [Workerman](#workerman)
         
 #### ReactPHP
 
@@ -149,6 +151,10 @@ Source: https://github.com/icicleio
 #### Kraken
 
 Source: http://kraken-php.com
+
+#### Workerman
+
+Source: https://github.com/walkor/Workerman
 
 ## Multithread code execution
 
