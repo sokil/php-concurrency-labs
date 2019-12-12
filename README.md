@@ -124,7 +124,7 @@ make install
 
 Source: https://reactphp.org
 
-Examples: https://github.com/sokil/php-concurrency-labs/tree/master/examples/ReactPHP
+Examples: https://github.com/sokil/php-concurrency-labs/tree/master/src/ReactPHP
 
 ```
 cd src/ReactPHP
@@ -169,7 +169,7 @@ Source: https://github.com/walkor/Workerman
       
 Dockerfile: https://github.com/sokil/php-concurrency-labs/blob/master/docker/Dockerfile.ext-phtreads
 
-Examples: https://github.com/sokil/php-concurrency-labs/tree/master/examples/Pthreads
+Examples: https://github.com/sokil/php-concurrency-labs/tree/master/src/Pthreads
 
 ## Coroutines
 
@@ -211,7 +211,7 @@ Coroutines are computer-program components that generalize subroutines for non-p
 
 PHP Manual: http://php.net/manual/ru/book.stream.php
 
-Examples: https://github.com/sokil/php-concurrency-labs/tree/master/examples/Stream 
+Examples: https://github.com/sokil/php-concurrency-labs/tree/master/src/Stream 
 
 ## Articles
 
