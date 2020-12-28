@@ -68,7 +68,7 @@
 | swoole |[GitHub manual](https://github.com/swoole/swoole-src)|[GitHub](https://github.com/swoole/swoole-src)|||
 | libuv |[GitHub](https://github.com/bwoebi/php-uv)|[PECL](https://pecl.php.net/package/uv), [GitHub](https://github.com/bwoebi/php-uv)|||
 | concurent-php/ext-async | [GitHub manual](https://github.com/concurrent-php/ext-async) | [GitHub](https://github.com/concurrent-php/ext-async) | - | nightly | 
-
+| ext-fiber | | https://wiki.php.net/rfc/fibers,https://github.com/amphp/ext-fiber | | |
 Links:
 * [Benchmarking libevent against libev](http://libev.schmorp.de/bench.html) - libev faster
 
