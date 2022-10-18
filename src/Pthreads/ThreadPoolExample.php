@@ -2,53 +2,19 @@
 
 class SummariserThread extends Thread
 {
-
-    /**
-     * List of numbers to sum
-     *
-     * @var array
-     */
     private $numbersToSum;
-
-    /**
-     * Sum result
-     *
-     * @var int
-     */
     private $sum;
-
-    /**
-     * @param int[] ...$numbersToSum
-     */
-    public function __construct(int ...$numbersToSum)
-    {
+    public function __construct(int ...$numbersToSum) {
         $this->numbersToSum = $numbersToSum;
     }
-
-    /**
-     * Execute thread
-     */
-    public function run()
-    {
+    public function run() {
         sleep(10);
         $this->sum = array_sum((array)$this->numbersToSum);
     }
-
-    /**
-     * Get sum result
-     *
-     * @return int
-     */
-    public function getSum(): int
-    {
+    public function getSum(): int {
         return $this->sum;
     }
-
-    /**
-     * @return array
-     */
-    public function getNumbersToSum(): array
-    {
+    public function getNumbersToSum(): array {
         return (array)$this->numbersToSum;
     }
 };
@@ -62,8 +28,6 @@ $data = [
     [10, 11, 12],
     [13, 14, 15],
 ];
-
-$t = microtime(true);
 
 /** @var SummariserThread[] $tasks */
 $tasks = [];
@@ -90,6 +54,4 @@ foreach ($tasks as $task) {
         $task->getSum()
     );
 }
-
-echo 'Total executed time: ' . (microtime(true) - $t) . PHP_EOL;
 
